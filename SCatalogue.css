@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    gap: 1em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+button:hover{
+    cursor: pointer;
+}
+header, .main-container{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.categories-name{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+label{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.logo{
+    width: 6%;
+    margin-left: 35px;
+    border-radius: 4px;
+}
+.search{
+    flex-grow: 2;
+}
+.search-button{
+    padding: 20px;
+    margin-right:15px;
+}
+.cart-button{
+    padding: 20px;
+}
+.main-container{
+    padding: 15px;
+    height: auto;
+    display: flex;
+    gap: 2em;
+}
+.category{
+    background-color: azure;
+    border: black solid 1px;
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cars{
+    background-color: azure;
+    width: 300px;
+    height: 500px;
+    border: black solid 1px;
+}
+.cars-description{
+    border: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+.buy-button{
+    padding: 10px;
+    max-height: 40px;
+    align-self: center;
+}

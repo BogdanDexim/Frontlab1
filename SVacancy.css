@@ -1,0 +1,114 @@
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+footer{
+    background-color: azure;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+nav{
+    margin: 10px 0;
+    text-align: center;
+}
+header, article, footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    height: 100%;
+    width: auto;
+    margin: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    margin:25px ;
+    color: darkcyan;
+}
+a:hover{
+    text-decoration: underline;
+}
+hr{
+    border-top: 1px solid black;
+}
+.logo{
+    width: 6%;
+    margin-left: 35px;
+    border-radius: 4px;
+}
+.join-us-container{
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.join-us-container > section{
+    padding: 20px;
+    max-width: 43%;
+}
+.buttons{
+    width: 350px;
+    height: 60px;
+}
+.Vacancy-container{
+    height: 500px;
+    background-image: url("https://www.shutterstock.com/image-vector/car-rental-vector-concept-minimal-600nw-2275966199.jpg");
+    background-size: auto;
+    display: grid;
+    grid-template-areas:
+    '1 2 3'
+    'empt but empt2';
+    grid-template-rows: 1fr 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.item{
+    background-color: azure;
+    border: 1px solid black;
+    width: 250px;
+    height: 80%;
+    align-self: center;
+    padding: 10px;
+}
+.Vacancy-container > button{
+    grid-area: but;
+    justify-self: center;
+    align-self: flex-start;
+}
+.Vacancy-container > section{
+    border: 1px solid black;
+}
+.Guide-container{
+    height: 700px;
+    display: grid;
+    grid-template-areas:
+    'top top top'
+    '1 2 3'
+    '4 5 0'
+    'empt but empt2';
+    grid-template-rows: 0.20fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.Guide-container > b{
+    font-size: 50px;
+    grid-area: top;
+    justify-self: center;
+}
+.Guide-container > button{
+    grid-area: but;
+    justify-self: center;
+    align-self: start;
+}
+.number{
+    font-size: 75px;
+    margin-right: 14px;
+    float: left;
+}
